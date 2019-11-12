@@ -30,5 +30,5 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-parent:1.5.6.RELEASE')
     compile('org.apache.tomcat.embed:tomcat-embed-jasper')
     runtimeOnly 'mysql:mysql-connector-java'
-    compile('javax.servlet:jstl:1.2')
+    compile('org.springframework.boot:spring-boot-starter-thymeleaf')
 }

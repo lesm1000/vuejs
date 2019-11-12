@@ -4,10 +4,13 @@ server:
   port: 8082
 
 
+  spring:
+      thymeleaf:
+          prefix: classpath:templates/
+          cleck-template : true
+          suffix : .html
+          mode : HTML5
+          cache : false
+          order : 0
 
-#spring
-spring:
-  mvc:
-    view:
-      prefix: "/WEB-INF/views/"
-      suffix: ".jsp"
+
